@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Video Binding</title>
+</head>
+<body>
+
+<video id="camsource" autoplay width="320" height="200"></video>
+
+<script src="../src/index.js"></script>
+<script>
+    var video = document.getElementById('camsource');
+
+    mediaCapture.bindTo(video, {
+        audio: false,
+        video: true,
+
+        autoplay: true,
+
+        facing: "environment", // or "user"
+
+        onSuccess: function(stream) {
+            console.log('success', stream);
+        },
+
+        onError: function(error) {
+            console.error('error', error);
+        }
+    });
+</script>
+</body>
+</html>

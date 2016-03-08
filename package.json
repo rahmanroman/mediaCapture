@@ -1,0 +1,24 @@
+{
+  "name": "media-capture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scr/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahmanroman/mediaCapture.git"
+  },
+  "keywords": [
+    "audio",
+    "video",
+    "media",
+    "capture"
+  ],
+  "author": "Roman Rahman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahmanroman/mediaCapture/issues"
+  },
+  "homepage": "https://github.com/rahmanroman/mediaCapture#readme"
+}
